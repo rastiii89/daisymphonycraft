@@ -130,7 +130,7 @@ a {
     outline: none !important;
 }
 
-a,
+a
 .btn {
     text-decoration: none !important;
     outline: none !important;
@@ -146,9 +146,15 @@ img {
     height: auto;
 }
 
-.banner_img img {
-    margin-top: -50px;
+.banner_img {
+    position: relative;
+    top: -100px;
 }
+
+.banner_img img {
+    display: block;
+}
+
 
  :focus {
     outline: 0;
