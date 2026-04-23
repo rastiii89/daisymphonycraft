@@ -1052,5 +1052,5 @@ textarea#comment.update_mail::placeholder {
 }
 
 .carousel-indicators {
-    bottom: 80px !important;
+    right: 80px !important;
 }
