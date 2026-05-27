@@ -1174,36 +1174,3 @@ textarea#comment.update_mail::placeholder {
 .carousel-indicators {
     right: 80px !important;
 }
-/* LOGIN BUTTON PINK BULAT */
-
-.nav-cta {
-    background-color: #fc95c4;
-    color: white;
-
-    border: none;
-    border-radius: 50px;
-
-    padding: 8px 22px;
-
-    font-size: 15px;
-    font-weight: 600;
-
-    display: flex;
-    align-items: center;
-    gap: 8px;
-
-    cursor: pointer;
-
-    transition: 0.3s ease;
-}
-
-/* HOVER */
-.nav-cta:hover {
-    background-color: #ff78b5;
-    transform: translateY(-2px);
-}
-
-/* ICON */
-.nav-cta i {
-    font-size: 14px;
-}
